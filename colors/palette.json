@@ -1,0 +1,34 @@
+{
+  "void": {
+    "hex": "#0B0710",
+    "kullanim": "zemin"
+  },
+  "obsidian": {
+    "hex": "#16101E",
+    "kullanim": "yüzey"
+  },
+  "seam": {
+    "hex": "#2A2135",
+    "kullanim": "çizgi / kenarlık"
+  },
+  "neon": {
+    "hex": "#F2A1FF",
+    "kullanim": "marka rengi, vurgu"
+  },
+  "amethyst": {
+    "hex": "#7B2CBF",
+    "kullanim": "buton, açık zeminde vurgu"
+  },
+  "bone": {
+    "hex": "#EDE6F2",
+    "kullanim": "metin"
+  },
+  "ash": {
+    "hex": "#9A92AC",
+    "kullanim": "ikincil metin"
+  },
+  "signal": {
+    "hex": "#FF6B8B",
+    "kullanim": "uyarı, kritik bulgu"
+  }
+}

@@ -1,96 +1,96 @@
-# f3nri marka kiti
+# f3nri brand kit
 
 <p align="center"><img src="social/x-banner-1500x500.png" alt="f3nri_ — research · tools · intel" width="100%"></p>
 
-**f3nri**: siber güvenlik araştırma ve araç geliştirme ekibi.
-Okunuşu: "fenri". Kökeni: İskandinav mitolojisindeki zincir kıran kurt Fenrir.
-Slogan satırı: `research · tools · intel`
+**f3nri** is an independent security research team building tools and publishing threat intelligence.
+Pronounced "fen-ree", after Fenrir, the chain-breaking wolf of Norse mythology.
+Tagline: `research · tools · intel`
 
 ---
 
-## Klasörler
+## Contents
 
-| Klasör | İçerik |
+| Folder | What's inside |
 |---|---|
-| `logo/` | İşaret (sembol): SVG ve PNG, 3 renk; favicon; orijinal çizim |
-| `wordmark/` | Yazı logosu ve işaret + yazı birleşimleri (lockup), koyu ve açık zemin |
-| `social/` | Profil fotoğrafı, GitHub avatarı, X ve LinkedIn banner, link önizleme (OG) görseli |
-| `colors/` | Renk paleti görseli, `tokens.css`, `palette.json` |
-| `fonts/` | Marka fontları (TTF) ve OFL lisansları |
+| [`logo/`](logo) | The mark: SVG and PNG in three colors, favicon, original drawing |
+| [`wordmark/`](wordmark) | Wordmark and mark + wordmark lockups for dark and light backgrounds |
+| [`social/`](social) | Profile picture, GitHub avatar, X and LinkedIn banners, Open Graph image |
+| [`colors/`](colors) | Palette image, `tokens.css`, `palette.json` |
+| [`fonts/`](fonts) | Brand typefaces (TTF) and their OFL licenses |
 
 ---
 
 ## Logo
 
-**İşaret:** tek bir vektör, her boyutta aynı çizim.
-- Varsayılan: **Neon** (`#F2A1FF`) işaret, **Void** (`#0B0710`) zemin üzerinde.
-- Açık zemin: **Void** renkli işaret (`f3nri-mark-void`).
-- Fotoğraf ya da renkli zemin: **Bone** renkli işaret (`f3nri-mark-bone`).
-- En küçük kullanım: 32 px. 16 px'te (favicon) sadece silüet görünür, bu normal.
-- İşaretin etrafında, işaret genişliğinin en az %10'u kadar boşluk bırak.
+**Mark:** a single vector, used at every size.
+- Default: **Neon** (`#F2A1FF`) mark on **Void** (`#0B0710`).
+- On light backgrounds: the **Void** mark (`f3nri-mark-void`).
+- On photos or colored backgrounds: the **Bone** mark (`f3nri-mark-bone`).
+- Minimum size: 32 px. At 16 px (favicon) only the silhouette reads, which is expected.
+- Clear space: keep at least 10% of the mark's width empty around it.
 
-**Yazı logosu:** `f3nri_`, JetBrains Mono ExtraBold.
-- `f3nri` Bone (koyu zeminde) veya Void (açık zeminde).
-- Alt çizgi `_` her zaman vurgu renginde: koyu zeminde **Neon**, açık zeminde **Amethyst**.
-- Harf aralığı: -0.03em.
+**Wordmark:** `f3nri_`, set in JetBrains Mono ExtraBold.
+- `f3nri` in Bone on dark backgrounds, Void on light backgrounds.
+- The underscore `_` is always the accent color: **Neon** on dark, **Amethyst** on light.
+- Letter spacing: -0.03em.
 
-**Lockup:** işaret solda, yazı sağda. Ana kullanım `f3nri-lockup-koyu-zemin`.
+**Lockup:** mark on the left, wordmark on the right. Primary version: `f3nri-lockup-dark-bg`.
 
-**labs eki (opsiyonel):** `f3nri_ labs`, JetBrains Mono Italic, Neon. Sadece logonun ikincil versiyonu olarak kullanılır. Domain, kullanıcı adı ve handle'larda geçmez. Karşılaştırma: `wordmark/karsilastirma-labs-var-yok.png`.
+**labs suffix (optional):** `f3nri_ labs` in JetBrains Mono Italic, Neon. A secondary version of the logo only. See `wordmark/comparison-with-without-labs.png`.
 
-**Yapma:**
-- İşareti döndürme, gerdirme, gölge ya da parlama efekti ekleme.
-- Paletteki renkler dışında bir renge boyama.
-- Yazı logosunu başka bir fontla yeniden yazma.
-- Neon işareti açık zemine koyma (kontrast yetersiz kalır).
+**Don't:**
+- Rotate, stretch, or add shadows or glow to the mark.
+- Recolor it outside the palette.
+- Retype the wordmark in another typeface.
+- Place the Neon mark on light backgrounds (not enough contrast).
 
 ---
 
-## Renkler
+## Colors
 
-| Ad | Hex | Kullanım |
+| Name | Hex | Usage |
 |---|---|---|
-| Void | `#0B0710` | Zemin |
-| Obsidian | `#16101E` | Kart ve yüzey |
-| Seam | `#2A2135` | Çizgi ve kenarlık |
-| Neon | `#F2A1FF` | Marka rengi, vurgu |
-| Amethyst | `#7B2CBF` | Buton, açık zeminde vurgu |
-| Bone | `#EDE6F2` | Ana metin |
-| Ash | `#9A92AC` | İkincil metin |
-| Signal | `#FF6B8B` | Uyarı, kritik bulgu (az kullan) |
+| Void | `#0B0710` | Background |
+| Obsidian | `#16101E` | Cards and surfaces |
+| Seam | `#2A2135` | Lines and borders |
+| Neon | `#F2A1FF` | Brand color, accent |
+| Amethyst | `#7B2CBF` | Buttons, accent on light backgrounds |
+| Bone | `#EDE6F2` | Primary text |
+| Ash | `#9A92AC` | Secondary text |
+| Signal | `#FF6B8B` | Warnings, critical findings (use sparingly) |
 
-Kontrast (Void zemin üzerinde): Bone 16.4:1, Neon 10.8:1, Ash 5.8:1, Signal 7.4:1. Amethyst buton üzerinde Bone metin 5.8:1. Hepsi WCAG AA'yı geçer.
+Contrast on Void: Bone 16.4:1, Neon 10.8:1, Ash 5.8:1, Signal 7.4:1. Bone on Amethyst: 5.8:1. All pass WCAG AA.
 
 ---
 
-## Tipografi
+## Typography
 
-| Rol | Font | Ağırlık |
+| Role | Typeface | Weight |
 |---|---|---|
-| Yazı logosu | JetBrains Mono | ExtraBold (800) |
-| Başlık | Unbounded | Bold (700) |
-| Gövde metni | Inter | Regular (400), SemiBold (600) |
-| Kod, CLI, IOC | JetBrains Mono | Regular (400) |
+| Wordmark | JetBrains Mono | ExtraBold (800) |
+| Headings | Unbounded | Bold (700) |
+| Body | Inter | Regular (400), SemiBold (600) |
+| Code, CLI, IOCs | JetBrains Mono | Regular (400) |
 
-Fontların hepsi SIL Open Font License 1.1 ile lisanslı: ticari kullanım serbest. Kurmak için `fonts/` içindeki `.ttf` dosyalarına sağ tıkla, "Yükle"yi seç.
-Web için Google Fonts: `JetBrains Mono`, `Unbounded`, `Inter`.
+All typefaces are licensed under the SIL Open Font License 1.1, free for commercial use.
+For the web, load them from Google Fonts: `JetBrains Mono`, `Unbounded`, `Inter`.
 
 ---
 
-## Sosyal medya dosyaları
+## Social media
 
-| Dosya | Nerede |
+| File | Use |
 |---|---|
-| `profil-foto-400x400.png` | X, LinkedIn, Instagram, Telegram, Discord profil fotoğrafı |
-| `github-avatar-500x500.png` | GitHub organizasyon avatarı |
-| `x-banner-1500x500.png` | X kapak görseli |
-| `linkedin-banner-1584x396.png` | LinkedIn şirket sayfası kapak görseli (sol taraf profil fotoğrafı için boş bırakıldı) |
-| `og-gorsel-1200x630.png` | Site linki paylaşıldığında çıkan önizleme |
-| `logo/favicon.ico` | Site sekmesi ikonu |
+| `social/profile-400x400.png` | Profile picture on X, LinkedIn, Instagram, Telegram, Discord |
+| `social/github-avatar-500x500.png` | GitHub organization avatar |
+| `social/x-banner-1500x500.png` | X header |
+| `social/linkedin-banner-1584x396.png` | LinkedIn company page cover (left side kept clear for the profile picture) |
+| `social/og-image-1200x630.png` | Link preview image for the website |
+| `logo/favicon.ico` | Browser tab icon |
 
 ---
 
-## Linkler
+## Links
 
 - Web: [f3nri.com](https://f3nri.com)
 - GitHub: [github.com/f3nrilabs](https://github.com/f3nrilabs)

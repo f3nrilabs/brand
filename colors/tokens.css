@@ -1,12 +1,12 @@
 :root {
-  --f3nri-void: #0B0710; /* zemin */
-  --f3nri-obsidian: #16101E; /* yüzey */
-  --f3nri-seam: #2A2135; /* çizgi / kenarlık */
-  --f3nri-neon: #F2A1FF; /* marka rengi, vurgu */
-  --f3nri-amethyst: #7B2CBF; /* buton, açık zeminde vurgu */
-  --f3nri-bone: #EDE6F2; /* metin */
-  --f3nri-ash: #9A92AC; /* ikincil metin */
-  --f3nri-signal: #FF6B8B; /* uyarı, kritik bulgu */
+  --f3nri-void: #0B0710; /* background */
+  --f3nri-obsidian: #16101E; /* cards and surfaces */
+  --f3nri-seam: #2A2135; /* lines and borders */
+  --f3nri-neon: #F2A1FF; /* brand color, accent */
+  --f3nri-amethyst: #7B2CBF; /* buttons, accent on light backgrounds */
+  --f3nri-bone: #EDE6F2; /* primary text */
+  --f3nri-ash: #9A92AC; /* secondary text */
+  --f3nri-signal: #FF6B8B; /* warnings, critical findings */
   --f3nri-font-wordmark: 'JetBrains Mono', monospace; /* 800 */
   --f3nri-font-heading: 'Unbounded', sans-serif; /* 700 */
   --f3nri-font-body: 'Inter', system-ui, sans-serif;
